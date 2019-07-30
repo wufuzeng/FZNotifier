@@ -18,6 +18,5 @@
   "platforms": {
     "ios": "8.0"
   },
-  "public_header_files": "FZNotifier/Classes/FZNotifier.h",
-  "source_files": "FZNotifier/Classes/*.{h,m}"
+  "vendored_frameworks": "FZNotifier/Classes/FZNotifier.framework"
 }

@@ -6,18 +6,25 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		33FC2A78B9FEE1BBCB549330E6E8E6CF /* FZNotifier */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2909A744D59F28DE8264AD45D141BBD3 /* Build configuration list for PBXAggregateTarget "FZNotifier" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = FZNotifier;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		0B5E26937E0FFC297BE6404645154F34 /* Pods-FZNotifier_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34197F26BA7A4D31011BAE40317800FA /* Pods-FZNotifier_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1080CDD63973B5F852E33605D894FCE2 /* FZNotifier-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 77D28A116FD0618783BC94CDFA46B2C9 /* FZNotifier-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B5E26937E0FFC297BE6404645154F34 /* Pods-FZNotifier_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DA8C48757085B0450A653BC681D15FAA /* Pods-FZNotifier_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		21ED2E802222F3A9F03213142879BB6D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		2909ED852A54618AF85B91766025896B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		485C3E02121264EC6EE25C01AE0D9A36 /* Pods-FZNotifier_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 34BE5046E3F5862AD5F36730DBEFEFE5 /* Pods-FZNotifier_Example-dummy.m */; };
-		55D97B6D58F70F70165E7C92478D617C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		686858AD1A695716E5D186CB899700D6 /* FZNotifier.m in Sources */ = {isa = PBXBuildFile; fileRef = E6AC0DE3FBF5B8206342F2230369ADCB /* FZNotifier.m */; };
-		74D79870DA61223561FF31468326CF15 /* FZNotifier-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FAA1465AAD98DDECC2FF7559E856D12 /* FZNotifier-dummy.m */; };
-		8D2AF948431F64D9B5114FA7598FB1D4 /* Pods-FZNotifier_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 049CDB3328144548D1D5D097590310E8 /* Pods-FZNotifier_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B467FB72033DC48847E6330DA7EE43AF /* FZNotifier.h in Headers */ = {isa = PBXBuildFile; fileRef = D800BCC790C4472355D97F4D5B1DF399 /* FZNotifier.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E5E6AD3410F6625DFDDB443B01B97C21 /* Pods-FZNotifier_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EEA45F673A9CD920788A436786F79B66 /* Pods-FZNotifier_Tests-dummy.m */; };
+		485C3E02121264EC6EE25C01AE0D9A36 /* Pods-FZNotifier_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3303E56148E6737917C35513CE69371C /* Pods-FZNotifier_Example-dummy.m */; };
+		8D2AF948431F64D9B5114FA7598FB1D4 /* Pods-FZNotifier_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5482F3B2948964C917220DDE9CB05AB2 /* Pods-FZNotifier_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5E6AD3410F6625DFDDB443B01B97C21 /* Pods-FZNotifier_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C8403EF3EE2DA1E82AAB34A45E6E3B70 /* Pods-FZNotifier_Tests-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,39 +45,31 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		049CDB3328144548D1D5D097590310E8 /* Pods-FZNotifier_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FZNotifier_Tests-umbrella.h"; sourceTree = "<group>"; };
-		0B150DAA219F18B8399B2CCA94A670CD /* Pods-FZNotifier_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FZNotifier_Example-Info.plist"; sourceTree = "<group>"; };
-		18EC9FAFE565D41F7D5CB5A332D83503 /* FZNotifier.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FZNotifier.xcconfig; sourceTree = "<group>"; };
-		1A13D7342F92B1E693697B36FD1BF973 /* Pods-FZNotifier_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FZNotifier_Tests.modulemap"; sourceTree = "<group>"; };
-		22FFB92B5E1DABE264F84942B4D46098 /* FZNotifier-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FZNotifier-Info.plist"; sourceTree = "<group>"; };
+		1699A204E73FF0A4215F4E47D55EEF21 /* Pods-FZNotifier_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FZNotifier_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		34197F26BA7A4D31011BAE40317800FA /* Pods-FZNotifier_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FZNotifier_Example-umbrella.h"; sourceTree = "<group>"; };
-		34BE5046E3F5862AD5F36730DBEFEFE5 /* Pods-FZNotifier_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FZNotifier_Example-dummy.m"; sourceTree = "<group>"; };
-		371E7F9B3755431628D897BF131CACF2 /* Pods-FZNotifier_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FZNotifier_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		4109CDA4B01932AD4D7B7E950C31892E /* Pods-FZNotifier_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FZNotifier_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		44E5F2102D7A58741743C1F6B01A7C35 /* Pods-FZNotifier_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FZNotifier_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4D7333B4950043197E27885ED308BFF3 /* Pods-FZNotifier_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FZNotifier_Example.modulemap"; sourceTree = "<group>"; };
-		52D13AE07D69CA4BF7A661A51EC84F33 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		5CC03EED77D5E2CB28B2FF544A055FDE /* FZNotifier.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FZNotifier.modulemap; sourceTree = "<group>"; };
-		6061D71FE38C43F75285FBFAE447E721 /* Pods-FZNotifier_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FZNotifier_Example-frameworks.sh"; sourceTree = "<group>"; };
-		6A59001A80A26D5DA025C7DC9C32A708 /* Pods-FZNotifier_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FZNotifier_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		6FF65654C95C83EB2C4AF58DB15C6F9D /* Pods_FZNotifier_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FZNotifier_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		77D28A116FD0618783BC94CDFA46B2C9 /* FZNotifier-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FZNotifier-umbrella.h"; sourceTree = "<group>"; };
-		7FAA1465AAD98DDECC2FF7559E856D12 /* FZNotifier-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FZNotifier-dummy.m"; sourceTree = "<group>"; };
-		82A3DD11D8B129A829C9CEC0A0513321 /* FZNotifier-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FZNotifier-prefix.pch"; sourceTree = "<group>"; };
-		8D39DF567774D7F527A566D09DECC8F7 /* FZNotifier.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = FZNotifier.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		930F0F92FA24531E62D79794354B3EF0 /* Pods-FZNotifier_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FZNotifier_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		938C7F723EC72D31AF89911C287D16E8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		9A5DE98AEAE8DACD231AA39598D61B1D /* Pods-FZNotifier_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FZNotifier_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		AED0F8615567676F744636D0E1AB4F4F /* Pods-FZNotifier_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FZNotifier_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		BD9A122DA8123DD48CA178BA2D287466 /* FZNotifier.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = FZNotifier.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		C0EE29AA752CFCA042756A2D4E897A98 /* Pods_FZNotifier_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FZNotifier_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D800BCC790C4472355D97F4D5B1DF399 /* FZNotifier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FZNotifier.h; path = FZNotifier/Classes/FZNotifier.h; sourceTree = "<group>"; };
-		D87E7188C7AAFC030E5046B7D9576F8C /* Pods-FZNotifier_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FZNotifier_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		E6AC0DE3FBF5B8206342F2230369ADCB /* FZNotifier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FZNotifier.m; path = FZNotifier/Classes/FZNotifier.m; sourceTree = "<group>"; };
-		E9D0C04819E1141A6CA57AC5ECEEF66D /* Pods-FZNotifier_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FZNotifier_Tests-Info.plist"; sourceTree = "<group>"; };
-		EEA45F673A9CD920788A436786F79B66 /* Pods-FZNotifier_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FZNotifier_Tests-dummy.m"; sourceTree = "<group>"; };
+		3303E56148E6737917C35513CE69371C /* Pods-FZNotifier_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FZNotifier_Example-dummy.m"; sourceTree = "<group>"; };
+		357748BECB427EE17C04C7256A437EBB /* Pods-FZNotifier_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FZNotifier_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		3A76BFFF49036B5B3E7CB2C856BBC4EF /* FZNotifier.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FZNotifier.framework; path = FZNotifier/Classes/FZNotifier.framework; sourceTree = "<group>"; };
+		3D96B409134D364F5807E0B795811455 /* Pods-FZNotifier_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FZNotifier_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		45D42884B785D33B20C986ACFBAE1364 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		47C3BA979671CB9020CDAAD9AB53644D /* Pods-FZNotifier_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FZNotifier_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5482F3B2948964C917220DDE9CB05AB2 /* Pods-FZNotifier_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FZNotifier_Tests-umbrella.h"; sourceTree = "<group>"; };
+		6FF65654C95C83EB2C4AF58DB15C6F9D /* Pods_FZNotifier_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FZNotifier_Example.framework; path = "Pods-FZNotifier_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		78E6735A123AE914B340BA07E6AC5A0B /* Pods-FZNotifier_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FZNotifier_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		7ADF4F30DFCA5AFDE929562600A5C062 /* Pods-FZNotifier_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FZNotifier_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7B65A1F63EDE69680C7607F8D4B0C72E /* Pods-FZNotifier_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FZNotifier_Example.modulemap"; sourceTree = "<group>"; };
+		8C14BE70B3E91EDD366408F4510DF048 /* Pods-FZNotifier_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FZNotifier_Example-Info.plist"; sourceTree = "<group>"; };
+		931D860CC2B34205CD759FEE91AA0468 /* Pods-FZNotifier_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FZNotifier_Tests-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A607AB3E8A544C0546DE8D18824E2E6C /* FZNotifier.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FZNotifier.xcconfig; sourceTree = "<group>"; };
+		C0EE29AA752CFCA042756A2D4E897A98 /* Pods_FZNotifier_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FZNotifier_Tests.framework; path = "Pods-FZNotifier_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3A106BBA724B07F851764EAB3BC683D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C8403EF3EE2DA1E82AAB34A45E6E3B70 /* Pods-FZNotifier_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FZNotifier_Tests-dummy.m"; sourceTree = "<group>"; };
+		C99634BC26BAD8A7F8DF0D6378450478 /* FZNotifier.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FZNotifier.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CB7E78FEF7CE2088BBC450629D5C37E3 /* Pods-FZNotifier_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FZNotifier_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D06507029680A0D3F07B29FA5CE01D91 /* Pods-FZNotifier_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FZNotifier_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		D836AF108893E49F1618404A95458B07 /* Pods-FZNotifier_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FZNotifier_Tests.modulemap"; sourceTree = "<group>"; };
+		DA8C48757085B0450A653BC681D15FAA /* Pods-FZNotifier_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FZNotifier_Example-umbrella.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,14 +78,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				21ED2E802222F3A9F03213142879BB6D /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7DB7EA7FE7B5052BBD90831E60997487 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				55D97B6D58F70F70165E7C92478D617C /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -101,86 +92,71 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		01B9A0E0EF08805712BEADAC5E20FEE5 /* Pod */ = {
+		0440D1BB420011142B2ACE185B23132F /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				BD9A122DA8123DD48CA178BA2D287466 /* FZNotifier.podspec */,
-				938C7F723EC72D31AF89911C287D16E8 /* LICENSE */,
-				52D13AE07D69CA4BF7A661A51EC84F33 /* README.md */,
+				A607AB3E8A544C0546DE8D18824E2E6C /* FZNotifier.xcconfig */,
 			);
-			name = Pod;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FZNotifier";
 			sourceTree = "<group>";
 		};
-		05D7F845F655A5164B2605DD273992C0 /* FZNotifier */ = {
+		55C3246C315895D84A6BEECAD28EA7E9 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				D800BCC790C4472355D97F4D5B1DF399 /* FZNotifier.h */,
-				E6AC0DE3FBF5B8206342F2230369ADCB /* FZNotifier.m */,
-				01B9A0E0EF08805712BEADAC5E20FEE5 /* Pod */,
-				D0FCC93F63E149951BF3B799A7B75C51 /* Support Files */,
+				B6916EC4266755A5421A227F0C4A69A7 /* Pods-FZNotifier_Example */,
+				959D346D5EC940269BF7354D1AD2087F /* Pods-FZNotifier_Tests */,
 			);
-			name = FZNotifier;
-			path = ../..;
+			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		153FD0156D0FB7E5DC955C5ED5D27401 /* Development Pods */ = {
+		7A11E158F579BC2ED8B16174520D8E47 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				05D7F845F655A5164B2605DD273992C0 /* FZNotifier */,
+				F7A69BAF782D908F4F1BFFFF4DDECE1D /* FZNotifier */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		1EE33144CA5415A6AE48F56BAD4AAAF5 /* Pods-FZNotifier_Tests */ = {
+		7BDCF7F0DC2EB8859D5ED3FB8B3EF00A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1A13D7342F92B1E693697B36FD1BF973 /* Pods-FZNotifier_Tests.modulemap */,
-				6A59001A80A26D5DA025C7DC9C32A708 /* Pods-FZNotifier_Tests-acknowledgements.markdown */,
-				371E7F9B3755431628D897BF131CACF2 /* Pods-FZNotifier_Tests-acknowledgements.plist */,
-				EEA45F673A9CD920788A436786F79B66 /* Pods-FZNotifier_Tests-dummy.m */,
-				E9D0C04819E1141A6CA57AC5ECEEF66D /* Pods-FZNotifier_Tests-Info.plist */,
-				049CDB3328144548D1D5D097590310E8 /* Pods-FZNotifier_Tests-umbrella.h */,
-				AED0F8615567676F744636D0E1AB4F4F /* Pods-FZNotifier_Tests.debug.xcconfig */,
-				930F0F92FA24531E62D79794354B3EF0 /* Pods-FZNotifier_Tests.release.xcconfig */,
-			);
-			name = "Pods-FZNotifier_Tests";
-			path = "Target Support Files/Pods-FZNotifier_Tests";
-			sourceTree = "<group>";
-		};
-		376E1C67AA5BA2074603C456603DE551 /* Pods-FZNotifier_Example */ = {
-			isa = PBXGroup;
-			children = (
-				4D7333B4950043197E27885ED308BFF3 /* Pods-FZNotifier_Example.modulemap */,
-				D87E7188C7AAFC030E5046B7D9576F8C /* Pods-FZNotifier_Example-acknowledgements.markdown */,
-				9A5DE98AEAE8DACD231AA39598D61B1D /* Pods-FZNotifier_Example-acknowledgements.plist */,
-				34BE5046E3F5862AD5F36730DBEFEFE5 /* Pods-FZNotifier_Example-dummy.m */,
-				6061D71FE38C43F75285FBFAE447E721 /* Pods-FZNotifier_Example-frameworks.sh */,
-				0B150DAA219F18B8399B2CCA94A670CD /* Pods-FZNotifier_Example-Info.plist */,
-				34197F26BA7A4D31011BAE40317800FA /* Pods-FZNotifier_Example-umbrella.h */,
-				4109CDA4B01932AD4D7B7E950C31892E /* Pods-FZNotifier_Example.debug.xcconfig */,
-				44E5F2102D7A58741743C1F6B01A7C35 /* Pods-FZNotifier_Example.release.xcconfig */,
-			);
-			name = "Pods-FZNotifier_Example";
-			path = "Target Support Files/Pods-FZNotifier_Example";
-			sourceTree = "<group>";
-		};
-		3CEE6390BA812DA8FF6AABE7ADD286E8 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				8D39DF567774D7F527A566D09DECC8F7 /* FZNotifier.framework */,
 				6FF65654C95C83EB2C4AF58DB15C6F9D /* Pods_FZNotifier_Example.framework */,
 				C0EE29AA752CFCA042756A2D4E897A98 /* Pods_FZNotifier_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B285E47A3C2A8781E4CF4733D673A0FD /* Targets Support Files */ = {
+		959D346D5EC940269BF7354D1AD2087F /* Pods-FZNotifier_Tests */ = {
 			isa = PBXGroup;
 			children = (
-				376E1C67AA5BA2074603C456603DE551 /* Pods-FZNotifier_Example */,
-				1EE33144CA5415A6AE48F56BAD4AAAF5 /* Pods-FZNotifier_Tests */,
+				D836AF108893E49F1618404A95458B07 /* Pods-FZNotifier_Tests.modulemap */,
+				47C3BA979671CB9020CDAAD9AB53644D /* Pods-FZNotifier_Tests-acknowledgements.markdown */,
+				357748BECB427EE17C04C7256A437EBB /* Pods-FZNotifier_Tests-acknowledgements.plist */,
+				C8403EF3EE2DA1E82AAB34A45E6E3B70 /* Pods-FZNotifier_Tests-dummy.m */,
+				931D860CC2B34205CD759FEE91AA0468 /* Pods-FZNotifier_Tests-Info.plist */,
+				5482F3B2948964C917220DDE9CB05AB2 /* Pods-FZNotifier_Tests-umbrella.h */,
+				3D96B409134D364F5807E0B795811455 /* Pods-FZNotifier_Tests.debug.xcconfig */,
+				D06507029680A0D3F07B29FA5CE01D91 /* Pods-FZNotifier_Tests.release.xcconfig */,
 			);
-			name = "Targets Support Files";
+			name = "Pods-FZNotifier_Tests";
+			path = "Target Support Files/Pods-FZNotifier_Tests";
+			sourceTree = "<group>";
+		};
+		B6916EC4266755A5421A227F0C4A69A7 /* Pods-FZNotifier_Example */ = {
+			isa = PBXGroup;
+			children = (
+				7B65A1F63EDE69680C7607F8D4B0C72E /* Pods-FZNotifier_Example.modulemap */,
+				1699A204E73FF0A4215F4E47D55EEF21 /* Pods-FZNotifier_Example-acknowledgements.markdown */,
+				78E6735A123AE914B340BA07E6AC5A0B /* Pods-FZNotifier_Example-acknowledgements.plist */,
+				3303E56148E6737917C35513CE69371C /* Pods-FZNotifier_Example-dummy.m */,
+				8C14BE70B3E91EDD366408F4510DF048 /* Pods-FZNotifier_Example-Info.plist */,
+				DA8C48757085B0450A653BC681D15FAA /* Pods-FZNotifier_Example-umbrella.h */,
+				7ADF4F30DFCA5AFDE929562600A5C062 /* Pods-FZNotifier_Example.debug.xcconfig */,
+				CB7E78FEF7CE2088BBC450629D5C37E3 /* Pods-FZNotifier_Example.release.xcconfig */,
+			);
+			name = "Pods-FZNotifier_Example";
+			path = "Target Support Files/Pods-FZNotifier_Example";
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -195,25 +171,11 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				153FD0156D0FB7E5DC955C5ED5D27401 /* Development Pods */,
+				7A11E158F579BC2ED8B16174520D8E47 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				3CEE6390BA812DA8FF6AABE7ADD286E8 /* Products */,
-				B285E47A3C2A8781E4CF4733D673A0FD /* Targets Support Files */,
+				7BDCF7F0DC2EB8859D5ED3FB8B3EF00A /* Products */,
+				55C3246C315895D84A6BEECAD28EA7E9 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		D0FCC93F63E149951BF3B799A7B75C51 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				5CC03EED77D5E2CB28B2FF544A055FDE /* FZNotifier.modulemap */,
-				18EC9FAFE565D41F7D5CB5A332D83503 /* FZNotifier.xcconfig */,
-				7FAA1465AAD98DDECC2FF7559E856D12 /* FZNotifier-dummy.m */,
-				22FFB92B5E1DABE264F84942B4D46098 /* FZNotifier-Info.plist */,
-				82A3DD11D8B129A829C9CEC0A0513321 /* FZNotifier-prefix.pch */,
-				77D28A116FD0618783BC94CDFA46B2C9 /* FZNotifier-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/FZNotifier";
 			sourceTree = "<group>";
 		};
 		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
@@ -224,18 +186,38 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		DB5D0E6478126A94644375F978E63161 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C99634BC26BAD8A7F8DF0D6378450478 /* FZNotifier.podspec */,
+				45D42884B785D33B20C986ACFBAE1364 /* LICENSE */,
+				C3A106BBA724B07F851764EAB3BC683D /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		E849E79517652E2C0087A4F410A08B43 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3A76BFFF49036B5B3E7CB2C856BBC4EF /* FZNotifier.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F7A69BAF782D908F4F1BFFFF4DDECE1D /* FZNotifier */ = {
+			isa = PBXGroup;
+			children = (
+				E849E79517652E2C0087A4F410A08B43 /* Frameworks */,
+				DB5D0E6478126A94644375F978E63161 /* Pod */,
+				0440D1BB420011142B2ACE185B23132F /* Support Files */,
+			);
+			name = FZNotifier;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		7C783E790D8F425ADBDDAD9C532329B4 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1080CDD63973B5F852E33605D894FCE2 /* FZNotifier-umbrella.h in Headers */,
-				B467FB72033DC48847E6330DA7EE43AF /* FZNotifier.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		87E59E3FD409B67090F775A36F074325 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -274,24 +256,6 @@
 			productReference = 6FF65654C95C83EB2C4AF58DB15C6F9D /* Pods_FZNotifier_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		33FC2A78B9FEE1BBCB549330E6E8E6CF /* FZNotifier */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 82A34ACB5AEA7E775AF40E7581A3393F /* Build configuration list for PBXNativeTarget "FZNotifier" */;
-			buildPhases = (
-				7C783E790D8F425ADBDDAD9C532329B4 /* Headers */,
-				BFB75D64D00FE14181758E57C6E4AC66 /* Sources */,
-				7DB7EA7FE7B5052BBD90831E60997487 /* Frameworks */,
-				444E80CEF4AEB78A49DDBAFE8306CD2C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = FZNotifier;
-			productName = FZNotifier;
-			productReference = 8D39DF567774D7F527A566D09DECC8F7 /* FZNotifier.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		A6914284621547F8BF545BAE1A830712 /* Pods-FZNotifier_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 57295264DAE457D82D644A35FA53BD27 /* Build configuration list for PBXNativeTarget "Pods-FZNotifier_Tests" */;
@@ -328,7 +292,7 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 3CEE6390BA812DA8FF6AABE7ADD286E8 /* Products */;
+			productRefGroup = 7BDCF7F0DC2EB8859D5ED3FB8B3EF00A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -340,13 +304,6 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		444E80CEF4AEB78A49DDBAFE8306CD2C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9076FBDF9A160833E8CAD7BD98C0A8A6 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -369,15 +326,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E5E6AD3410F6625DFDDB443B01B97C21 /* Pods-FZNotifier_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BFB75D64D00FE14181758E57C6E4AC66 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				74D79870DA61223561FF31468326CF15 /* FZNotifier-dummy.m in Sources */,
-				686858AD1A695716E5D186CB899700D6 /* FZNotifier.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,7 +357,7 @@
 /* Begin XCBuildConfiguration section */
 		26B77E38AFB8F080E678E9DE6146BD75 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 930F0F92FA24531E62D79794354B3EF0 /* Pods-FZNotifier_Tests.release.xcconfig */;
+			baseConfigurationReference = D06507029680A0D3F07B29FA5CE01D91 /* Pods-FZNotifier_Tests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -494,7 +442,8 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
@@ -502,7 +451,7 @@
 		};
 		595E5286E92583BF2E3EB899AE9FAEA2 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AED0F8615567676F744636D0E1AB4F4F /* Pods-FZNotifier_Tests.debug.xcconfig */;
+			baseConfigurationReference = 3D96B409134D364F5807E0B795811455 /* Pods-FZNotifier_Tests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -535,7 +484,7 @@
 		};
 		6E3E70327C7675E8172D0951A59C01CA /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 44E5F2102D7A58741743C1F6B01A7C35 /* Pods-FZNotifier_Example.release.xcconfig */;
+			baseConfigurationReference = CB7E78FEF7CE2088BBC450629D5C37E3 /* Pods-FZNotifier_Example.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -569,7 +518,7 @@
 		};
 		6EE82C5B78C9D79B67B4BE69C7945B69 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4109CDA4B01932AD4D7B7E950C31892E /* Pods-FZNotifier_Example.debug.xcconfig */;
+			baseConfigurationReference = 7ADF4F30DFCA5AFDE929562600A5C062 /* Pods-FZNotifier_Example.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "";
@@ -664,72 +613,45 @@
 			};
 			name = Debug;
 		};
-		B82038B2D869D8C20B934C24ECA651DC /* Release */ = {
+		CDF1E7444067A88AB9085452789C3954 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 18EC9FAFE565D41F7D5CB5A332D83503 /* FZNotifier.xcconfig */;
+			baseConfigurationReference = A607AB3E8A544C0546DE8D18824E2E6C /* FZNotifier.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FZNotifier/FZNotifier-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FZNotifier/FZNotifier-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FZNotifier/FZNotifier.modulemap";
-				PRODUCT_MODULE_NAME = FZNotifier;
-				PRODUCT_NAME = FZNotifier;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		CCC7050DA5827CCDDCD7E9D94E86FCDE /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 18EC9FAFE565D41F7D5CB5A332D83503 /* FZNotifier.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/FZNotifier/FZNotifier-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/FZNotifier/FZNotifier-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/FZNotifier/FZNotifier.modulemap";
-				PRODUCT_MODULE_NAME = FZNotifier;
-				PRODUCT_NAME = FZNotifier;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		EFD5D9867A0E92B806B4F5ADDFE55294 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A607AB3E8A544C0546DE8D18824E2E6C /* FZNotifier.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2909A744D59F28DE8264AD45D141BBD3 /* Build configuration list for PBXAggregateTarget "FZNotifier" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDF1E7444067A88AB9085452789C3954 /* Debug */,
+				EFD5D9867A0E92B806B4F5ADDFE55294 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -744,15 +666,6 @@
 			buildConfigurations = (
 				595E5286E92583BF2E3EB899AE9FAEA2 /* Debug */,
 				26B77E38AFB8F080E678E9DE6146BD75 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		82A34ACB5AEA7E775AF40E7581A3393F /* Build configuration list for PBXNativeTarget "FZNotifier" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				CCC7050DA5827CCDDCD7E9D94E86FCDE /* Debug */,
-				B82038B2D869D8C20B934C24ECA651DC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

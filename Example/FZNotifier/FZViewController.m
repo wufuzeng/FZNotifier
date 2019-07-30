@@ -8,7 +8,7 @@
 
 #import "FZViewController.h"
 
-#import "FZNotifier.h"
+#import <FZNotifier/FZNotifier.h>
 #import "FZClassA.h"
 #import "FZClassB.h"
 @interface FZViewController ()
