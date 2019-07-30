@@ -1,0 +1,16 @@
+PODS:
+  - FZNotifier (0.0.1)
+
+DEPENDENCIES:
+  - FZNotifier (from `../`)
+
+EXTERNAL SOURCES:
+  FZNotifier:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FZNotifier: a3faa52dea38331199600ba36f518a1ae8c33294
+
+PODFILE CHECKSUM: 757c843a53c48cd0b948807aa04af7f05e9c09a6
+
+COCOAPODS: 1.7.4

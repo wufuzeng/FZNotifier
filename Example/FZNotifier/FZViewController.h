@@ -8,6 +8,13 @@
 
 @import UIKit;
 
+@protocol FZViewControllerProtocol <NSObject>
+
+-(void)testFunc:(id)sender praram:(id)parram;
+
+
+@end
+
 @interface FZViewController : UIViewController
 
 @end

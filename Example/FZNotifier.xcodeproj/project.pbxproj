@@ -21,6 +21,8 @@
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
+		6037622822F02428003C9F87 /* FZClassA.m in Sources */ = {isa = PBXBuildFile; fileRef = 6037622422F02428003C9F87 /* FZClassA.m */; };
+		6037622922F02428003C9F87 /* FZClassB.m in Sources */ = {isa = PBXBuildFile; fileRef = 6037622722F02428003C9F87 /* FZClassB.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		D4116AC946B0279BE286CDC9 /* Pods_FZNotifier_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8942C0733F42ECDE4501C58B /* Pods_FZNotifier_Example.framework */; };
@@ -38,9 +40,9 @@
 
 /* Begin PBXFileReference section */
 		0311A4452EFC121D51FCAD7F /* Pods-FZNotifier_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FZNotifier_Tests.debug.xcconfig"; path = "Target Support Files/Pods-FZNotifier_Tests/Pods-FZNotifier_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		12E5C39C5AEDD38761DB2E0D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		12E5C39C5AEDD38761DB2E0D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		13229320EB5F1A4E96DE6944 /* Pods_FZNotifier_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FZNotifier_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		3C9CBEC7C8F8971F8ACD6B71 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		3C9CBEC7C8F8971F8ACD6B71 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		4C5A8EE05E107664A9F82D73 /* Pods-FZNotifier_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FZNotifier_Tests.release.xcconfig"; path = "Target Support Files/Pods-FZNotifier_Tests/Pods-FZNotifier_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* FZNotifier_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FZNotifier_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -60,12 +62,16 @@
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
+		6037622422F02428003C9F87 /* FZClassA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZClassA.m; sourceTree = "<group>"; };
+		6037622522F02428003C9F87 /* FZClassB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZClassB.h; sourceTree = "<group>"; };
+		6037622622F02428003C9F87 /* FZClassA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FZClassA.h; sourceTree = "<group>"; };
+		6037622722F02428003C9F87 /* FZClassB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FZClassB.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		72D6E8E29E02F9E115B97CCE /* Pods-FZNotifier_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FZNotifier_Example.debug.xcconfig"; path = "Target Support Files/Pods-FZNotifier_Example/Pods-FZNotifier_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8942C0733F42ECDE4501C58B /* Pods_FZNotifier_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FZNotifier_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		993ADB28D23F92060F061060 /* FZNotifier.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FZNotifier.podspec; path = ../FZNotifier.podspec; sourceTree = "<group>"; };
+		993ADB28D23F92060F061060 /* FZNotifier.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FZNotifier.podspec; path = ../FZNotifier.podspec; sourceTree = "<group>"; };
 		D8CCB33BB071975DAEF50F6D /* Pods-FZNotifier_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FZNotifier_Example.release.xcconfig"; path = "Target Support Files/Pods-FZNotifier_Example/Pods-FZNotifier_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,7 +109,6 @@
 				0311A4452EFC121D51FCAD7F /* Pods-FZNotifier_Tests.debug.xcconfig */,
 				4C5A8EE05E107664A9F82D73 /* Pods-FZNotifier_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -149,6 +154,10 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* FZViewController.h */,
 				6003F5A6195388D20070C39A /* FZViewController.m */,
+				6037622622F02428003C9F87 /* FZClassA.h */,
+				6037622422F02428003C9F87 /* FZClassA.m */,
+				6037622522F02428003C9F87 /* FZClassB.h */,
+				6037622722F02428003C9F87 /* FZClassB.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -248,6 +257,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = wufuzeng;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = E638HXYY46;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -258,6 +270,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -364,8 +377,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6037622822F02428003C9F87 /* FZClassA.m in Sources */,
 				6003F59E195388D20070C39A /* FZAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* FZViewController.m in Sources */,
+				6037622922F02428003C9F87 /* FZClassB.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -494,6 +509,7 @@
 			baseConfigurationReference = 72D6E8E29E02F9E115B97CCE /* Pods-FZNotifier_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E638HXYY46;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FZNotifier/FZNotifier-Prefix.pch";
 				INFOPLIST_FILE = "FZNotifier/FZNotifier-Info.plist";
@@ -510,6 +526,7 @@
 			baseConfigurationReference = D8CCB33BB071975DAEF50F6D /* Pods-FZNotifier_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = E638HXYY46;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FZNotifier/FZNotifier-Prefix.pch";
 				INFOPLIST_FILE = "FZNotifier/FZNotifier-Info.plist";

@@ -8,22 +8,42 @@
 
 #import "FZViewController.h"
 
+#import "FZNotifier.h"
+#import "FZClassA.h"
+#import "FZClassB.h"
 @interface FZViewController ()
-
+@property (nonatomic,strong) FZNotifier<FZViewControllerProtocol> *notifier;
+@property (nonatomic,strong) FZClassA *a;
+@property (nonatomic,strong) FZClassB *b;
 @end
 
 @implementation FZViewController
 
-- (void)viewDidLoad
-{
+- (void)viewDidLoad{
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    self.a = [FZClassA new];
+    self.b = [FZClassB new];
+    
+    [self addSubscriber:self.a];
+    [self addSubscriber:self.b];
+    
+    if ([self.notifier respondsToSelector:@selector(testFunc:praram:)]) {
+        [self.notifier testFunc:@(9) praram:@(1)];
+    }
 }
 
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+
+- (void)addSubscriber:(id<FZViewControllerProtocol>)subscriber{
+    [self.notifier addSubscriber:subscriber];
+}
+
+
+-(FZNotifier *)notifier{
+    if (_notifier == nil) {
+        _notifier = (id)[FZNotifier notifier];
+    }
+    return _notifier;
 }
 
 @end
